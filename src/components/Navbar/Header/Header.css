@@ -20,9 +20,7 @@
 .header-contents h2{
     font-weight: 700;
     font-size: 4.5vw;
-    background: linear-gradient(to right,#3a3523,#9197a4,white); /* Background gradient with shading */
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color : rgb(255, 255, 255)
 }
 
 .header-contents p{
@@ -38,6 +36,12 @@
     background-color: white;
     font-size: 1vw;
     border-radius: 50px;
+}
+
+.header-contents button:hover{
+    color: rgb(48, 46, 46);
+    background-color: rgb(230, 219, 219);
+
 }
 
 @media(max-width:1050px){
